@@ -4,8 +4,10 @@
   "description": "Renames the module's global variable and adds optional global aliases",
   "main": "lib",
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
+  "jsnext:main": "src/index.js",
   "scripts": {
     "test": "mocha --ui tdd",
     "autotest": "mocha --ui tdd --watch",
@@ -14,6 +16,10 @@
     "lint": "eslint src test",
     "cover": "babel-node ./node_modules/.bin/isparta cover _mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamonkko/babel-rename-umd-globals.git"
+  },
   "keywords": [
     "global",
     "module",
@@ -21,10 +27,15 @@
     "rename",
     "umd",
     "name",
-    "globals"
+    "globals",
+    "export"
   ],
   "author": "Jarkko Mönkkönen <jamonkko@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamonkko/babel-rename-umd-globals/issues"
+  },
+  "homepage": "https://github.com/jamonkko/babel-rename-umd-globals#readme",
   "devDependencies": {
     "babel-cli": "^6.6.4",
     "babel-eslint": "^6.0.2",
@@ -38,5 +49,8 @@
     "isparta": "^4.0.0",
     "lodash": "^4.6.1",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "babel-plugin-rename-assigned-properties": "0.0.5"
   }
 }
