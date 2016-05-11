@@ -1,8 +1,8 @@
 {
-  "name": "babel-rename-umd-globals",
+  "name": "babel-plugin-rename-umd-globals",
   "version": "0.0.1",
   "description": "Renames the module's global variable and adds optional global aliases",
-  "main": "lib",
+  "main": "lib/index.js",
   "files": [
     "lib",
     "src"
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamonkko/babel-rename-umd-globals.git"
+    "url": "git+https://github.com/jamonkko/babel-plugin-rename-umd-globals.git"
   },
   "keywords": [
     "global",
@@ -33,9 +33,9 @@
   "author": "Jarkko Mönkkönen <jamonkko@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jamonkko/babel-rename-umd-globals/issues"
+    "url": "https://github.com/jamonkko/babel-plugin-rename-umd-globals/issues"
   },
-  "homepage": "https://github.com/jamonkko/babel-rename-umd-globals#readme",
+  "homepage": "https://github.com/jamonkko/babel-plugin-rename-umd-globals#readme",
   "devDependencies": {
     "babel-cli": "^6.6.4",
     "babel-eslint": "^6.0.2",
