@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-rename-umd-globals",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Renames the module's global variable and adds optional global aliases",
   "main": "lib/index.js",
   "files": [
@@ -14,7 +14,8 @@
     "build": "npm run lint && npm test && npm run babel",
     "babel": "babel src -d lib",
     "lint": "eslint src test",
-    "cover": "nyc --require babel-core/register --all mocha"
+    "cover": "nyc --require babel-core/register --all mocha",
+    "cover:report": "nyc report --reporter=text-lcov | coveralls"
   },
   "nyc": {
     "include": [
