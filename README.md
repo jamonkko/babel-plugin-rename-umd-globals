@@ -1,3 +1,9 @@
+[![Build Status](https://travis-ci.org/jamonkko/babel-plugin-rename-umd-globals.svg?branch=master)](https://travis-ci.org/jamonkko/babel-plugin-rename-umd-globals)
+[![Coverage Status](https://coveralls.io/repos/github/jamonkko/babel-plugin-rename-umd-globals/badge.svg?branch=master)](https://coveralls.io/github/jamonkko/babel-plugin-rename-umd-globals?branch=master)
+[![npm version](https://img.shields.io/npm/v/babel-plugin-rename-umd-globals.svg?style=flat-square)](https://www.npmjs.com/package/babel-plugin-rename-umd-globals)
+[![npm downloads](https://img.shields.io/npm/dm/babel-plugin-rename-umd-globals.svg?style=flat-square)](https://www.npmjs.com/package/babel-plugin-rename-umd-globals)
+[![Dependency Status](https://david-dm.org/jamonkko/babel-plugin-rename-umd-globals.svg)](https://david-dm.org/jamonkko/babel-plugin-rename-umd-globals)
+[![devDependency Status](https://david-dm.org/jamonkko/babel-plugin-rename-umd-globals/dev-status.svg)](https://david-dm.org/jamonkko/babel-plugin-rename-umd-globals#info=devDependencies)
 # babel-plugin-rename-umd-globals
 Rename and add aliases for global module name. Can be applied after [babel-plugin-transform-es2015-modules-umd](http://babeljs.io/docs/plugins/transform-es2015-modules-umd) to modify global module name ([example below](#together-with-other-umd-plugins)).
 
