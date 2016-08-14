@@ -57,6 +57,6 @@
     "nyc": "^8.1.0"
   },
   "dependencies": {
-    "babel-plugin-rename-assigned-properties": "0.0.6"
+    "babel-plugin-rename-assigned-properties": "^0.0.7"
   }
 }
