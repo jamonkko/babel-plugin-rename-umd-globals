@@ -3,7 +3,7 @@ import renameProperties from 'babel-plugin-rename-assigned-properties'
 export default babel => ({
   visitor: {
     Program: {
-      exit(program, { opts }) {
+      exit (program, { opts }) {
         renameProperties(babel).visitor.Program.exit(
           program,
           {
