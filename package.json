@@ -50,7 +50,7 @@
     "chai": "^3.5.0",
     "coveralls": "^2.11.13",
     "mocha": "^3.1.2",
-    "nyc": "^8.3.0",
+    "nyc": "^8.3.1",
     "standard": "^8.3.0"
   },
   "dependencies": {
