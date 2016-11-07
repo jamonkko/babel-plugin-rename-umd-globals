@@ -5,14 +5,22 @@
 [![Dependency Status](https://david-dm.org/jamonkko/babel-plugin-rename-umd-globals.svg)](https://david-dm.org/jamonkko/babel-plugin-rename-umd-globals)
 [![devDependency Status](https://david-dm.org/jamonkko/babel-plugin-rename-umd-globals/dev-status.svg)](https://david-dm.org/jamonkko/babel-plugin-rename-umd-globals#info=devDependencies)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Sponsored by Leonidas](https://img.shields.io/badge/sponsored%20by-leonidas-389fc1.svg)](https://leonidasoy.fi/opensource)
+
 # babel-plugin-rename-umd-globals
 Rename and add aliases for global module name. Can be applied after [babel-plugin-transform-es2015-modules-umd](http://babeljs.io/docs/plugins/transform-es2015-modules-umd) to modify global module name ([example below](#together-with-other-umd-plugins)).
 
 ## Installation
 
 ```sh
+# With npm
 $ npm install babel-plugin-rename-umd-globals --save-dev
+
+# With yarn 
+$ yarn add babel-plugin-rename-assigned-properties --dev
 ```
+
+Tested to work with Node >= 0.10
 
 ## Usage
 
@@ -80,3 +88,7 @@ It can be combined with [babel-plugin-add-module-exports](https://github.com/59n
 ### Caveats
 
 - Expects the *global* object to be named global. If your global scope object happens to be named differently, like *root*, then just use [babel-plugin-rename-assigned-properties](https://github.com/jamonkko/babel-plugin-rename-assigned-properties) instead for arbitrary object property renaming.
+
+### Sponsors
+
+[Leonidas](https://leonidasoy.fi/opensource)
