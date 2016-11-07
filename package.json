@@ -54,7 +54,7 @@
     "standard": "^8.3.0"
   },
   "dependencies": {
-    "babel-plugin-rename-assigned-properties": "^0.0.7"
+    "babel-plugin-rename-assigned-properties": "^1.0.0"
   },
   "standard": {
     "parser": "babel-eslint"
