@@ -42,8 +42,8 @@
     "url": "https://github.com/jamonkko/babel-plugin-rename-umd-globals/issues"
   },
   "homepage": "https://github.com/jamonkko/babel-plugin-rename-umd-globals#readme",
-  "engines" : {
-    "node" : ">= 0.10",
+  "engines": {
+    "node": ">= 0.10",
     "iojs": ">= 1.0"
   },
   "devDependencies": {
@@ -58,7 +58,7 @@
     "standard": "^8.3.0"
   },
   "dependencies": {
-    "babel-plugin-rename-assigned-properties": "^0.0.7"
+    "babel-plugin-rename-assigned-properties": "^1.0.0"
   },
   "standard": {
     "parser": "babel-eslint"

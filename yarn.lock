@@ -314,9 +314,9 @@ babel-plugin-check-es2015-constants@^6.3.13:
   dependencies:
     babel-runtime "^6.0.0"
 
-babel-plugin-rename-assigned-properties@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/babel-plugin-rename-assigned-properties/-/babel-plugin-rename-assigned-properties-0.0.7.tgz#5194a254efa5a1530065ffe7aaf83ee0d3d1db37"
+babel-plugin-rename-assigned-properties:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-rename-assigned-properties/-/babel-plugin-rename-assigned-properties-1.0.0.tgz#cdb7750fa22fc8be14a30106aa3e4907b1b48eed"
   dependencies:
     babel-runtime "^6.11.6"
 
