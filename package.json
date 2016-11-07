@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-rename-umd-globals",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Renames the module's global variable and adds optional global aliases",
   "main": "lib/index.js",
   "files": [
@@ -42,6 +42,10 @@
     "url": "https://github.com/jamonkko/babel-plugin-rename-umd-globals/issues"
   },
   "homepage": "https://github.com/jamonkko/babel-plugin-rename-umd-globals#readme",
+  "engines" : {
+    "node" : ">= 0.10",
+    "iojs": ">= 1.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.8.0",
     "babel-core": "^6.16.0",
