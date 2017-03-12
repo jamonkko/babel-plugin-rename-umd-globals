@@ -43,4 +43,3 @@ suite('renaming globals', () => {
       'global.NewName1 = 0;global.NN = global.NewName2 = 1;global.noRename = 2;')
   })
 })
-
