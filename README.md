@@ -8,6 +8,8 @@
 [![Sponsored by Leonidas](https://img.shields.io/badge/sponsored%20by-leonidas-389fc1.svg)](https://leonidasoy.fi/opensource)
 
 # babel-plugin-rename-umd-globals
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/jamonkko/babel-plugin-rename-umd-globals.svg)](https://greenkeeper.io/)
 Rename and add aliases for global module name. Can be applied after [babel-plugin-transform-es2015-modules-umd](http://babeljs.io/docs/plugins/transform-es2015-modules-umd) to modify global module name ([example below](#together-with-other-umd-plugins)).
 
 ## Installation
