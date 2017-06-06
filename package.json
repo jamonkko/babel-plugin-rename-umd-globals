@@ -12,9 +12,10 @@
   "scripts": {
     "autotest": "mocha --ui tdd --watch",
     "babel": "babel src -d lib",
-    "build": "npm run standard && npm test && npm run babel",
+    "build": "npm run header && npm run standard && npm test && npm run babel",
     "cover": "nyc --require babel-core/register --all mocha",
     "cover:report": "nyc report --reporter=text-lcov | coveralls",
+    "header": "header src/*.js lib/*.js",
     "standard": "standard",
     "test": "mocha --ui tdd"
   },
@@ -55,6 +56,7 @@
     "chai": "^3.5.0",
     "coveralls": "^2.11.16",
     "mocha": "^3.1.2",
+    "module-header": "github:jamonkko/module-header#replace-existing",
     "nyc": "^10.1.0",
     "standard": "^10.0.1"
   },
