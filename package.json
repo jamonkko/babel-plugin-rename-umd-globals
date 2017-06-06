@@ -8,14 +8,15 @@
     "src"
   ],
   "jsnext:main": "src/index.js",
+  "module": "src/index.js",
   "scripts": {
-    "test": "mocha --ui tdd",
     "autotest": "mocha --ui tdd --watch",
-    "build": "npm run standard && npm test && npm run babel",
     "babel": "babel src -d lib",
-    "standard": "standard",
+    "build": "npm run standard && npm test && npm run babel",
     "cover": "nyc --require babel-core/register --all mocha",
-    "cover:report": "nyc report --reporter=text-lcov | coveralls"
+    "cover:report": "nyc report --reporter=text-lcov | coveralls",
+    "standard": "standard",
+    "test": "mocha --ui tdd"
   },
   "nyc": {
     "include": [
