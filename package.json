@@ -57,7 +57,7 @@
     "coveralls": "^2.11.16",
     "mocha": "^3.1.2",
     "module-header": "github:jamonkko/module-header#replace-existing",
-    "nyc": "^10.1.0",
+    "nyc": "^11.0.1",
     "standard": "^10.0.1"
   },
   "dependencies": {
