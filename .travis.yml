@@ -1,7 +1,14 @@
 language: node_js
 dist: trusty
 sudo: false
-cache: yarn
+
+cache:
+  yarn: true
+  directories:
+    - $HOME/.cache/yarn
+    - $HOME/.npm
+before_cache:
+  - rm -f $HOME/.npm/anonymous-cli-metrics.json
 
 addons:
   apt:
@@ -13,13 +20,16 @@ addons:
 
 node_js:
   - stable
+  - 8
+  - 7
   - 6
   - 5
   - 0.12
   - 0.10
 
-install: if [[ `node -v` == v0.1* ]]; then npm install; else yarn install; fi
+install: if [[ `node -v` == v0.1* ]]; then npm install; elif [[ `node -v` > v8 ]]; then npm install; else yarn install; fi
 
-script: if [[ `node -v` == v0.1* ]]; then npm test; else yarn build && yarn cover; fi
+script: if [[ `node -v` == v0.1* ]]; then npm test; elif [[ `node -v` > v8 ]]; then npm run build && npm run cover; else yarn build && yarn cover; fi
 
-after_script: 'npm run cover:report:coveralls'
+after_success:
+ - if [ "$TRAVIS_NODE_VERSION" = "stable" ]; then npm run cover:report:coveralls; fi
