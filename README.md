@@ -7,6 +7,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Sponsored by Leonidas](https://img.shields.io/badge/sponsored%20by-leonidas-389fc1.svg)](https://leonidasoy.fi/opensource)
 [![Greenkeeper badge](https://badges.greenkeeper.io/jamonkko/babel-plugin-rename-umd-globals.svg)](https://greenkeeper.io/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d3b29c725208c131e51e/maintainability)](https://codeclimate.com/github/jamonkko/babel-plugin-rename-umd-globals/maintainability)
 
 # babel-plugin-rename-umd-globals
 
