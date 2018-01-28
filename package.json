@@ -14,7 +14,7 @@
     "babel": "babel src -d lib",
     "build": "npm run header && npm run standard && npm test && npm run babel",
     "cover": "nyc --require babel-core/register --reporter=lcov --reporter=text --all tape tests/*.js | tap-nyc",
-    "cover:report": "nyc report --reporter=text-lcov | coveralls",
+    "cover:report:coveralls": "nyc report --reporter=text-lcov | coveralls",
     "header": "header src/*.js lib/*.js",
     "standard": "standard",
     "test": "tape -r babel-register tests/*.js | tap-diff"
