@@ -8,7 +8,7 @@ cache:
     - $HOME/.cache/yarn
     - $HOME/.npm
 before_cache:
-  - rm $HOME/.npm/anonymous-cli-metrics.json
+  - echo "{}" > /home/travis/.npm/anonymous-cli-metrics.json
 
 addons:
   apt:
